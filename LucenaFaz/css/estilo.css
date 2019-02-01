@@ -1,0 +1,184 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    padding-top: 50px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom right, rgb(8, 248, 88), rgb(45, 10, 243));
+    color: #fff;
+    border-top: 10px solid whitesmoke;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: chartreuse;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px chartreuse;
+}
+
+section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+    position: relative;
+    border-top: 10px solid whitesmoke;
+}
+
+hr {
+	background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.2), transparent);
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+	border: 0;
+	height: 1px;
+	margin: 22px 0 22px 0;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #053446;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: ease-out, 1s;
+}
+
+.navbar-default .navbar-nav li a:visited {
+    color: #fff;
+}
+
+
+/*.navbar-default .navbar-nav .active a, 
+.navbar-default .navbar-nav .active a:focus, 
+.navbar-default .navbar-nav .active a:hover {
+    border-bottom: 3px solid white;
+    transition: ease-in, 2s;
+    
+}
+*/
+
+.navbar img {
+    max-height: 100px;
+}
+
+/*
+.navbar-default {
+    background-color: rgb(151, 236, 238);
+}
+#menu-navegacao li:hover{
+    background-color: rgb(80, 80, 221);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #f10d0d;
+}
+*/
+.divslider {
+    /*padding-top: 100px;
+    padding-bottom: 15px;
+    */
+    background: url(../imgs/bg-ab-green.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divslider .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.divslider img {
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+}
+
+.divcolorida {
+    background: url(../imgs/bg-ab-green2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-clara {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(112, 97, 243));
+}
+
+.servicos_item {
+    margin-bottom: 35px;
+}
+
+.servicos_item * {
+    text-align: center;
+    color: #fff;   
+}
+
+.servicos_item img {
+    height: 260px;
+    width: 100%;
+}
+
+.servicos_item h4 {
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.servicos_btn_todososservicos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.produtos_item {
+    margin-bottom: 35px;
+    background: white;
+}
+
+.produtos_item * {
+    text-align: center;
+    
+}
+
+.produtos_item img {
+    height: 150px;
+    width: 100%;
+}
+
+.produtos_item h4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    height: 60px;
+}
+
+.produtos_item img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#form {
+    background: white;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.flex-align { 
+    display: flex!important; 
+    align-items: center;
+} 
+
+
